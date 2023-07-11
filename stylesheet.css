@@ -1,0 +1,32 @@
+#Hero{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(37, 7, 46);
+}
+#Hero div{
+    text-align: center;
+    color: rgb(254, 252, 193);
+    font-size: 200px;
+    padding-top: 6%;
+    font-family: monospace;
+}
+
+#DropDownMenuContainer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(77, 98, 206);
+}
+.DropDown{
+    width: 33.33%;
+    float: left;
+    height: inherit;
+    background-color: rgb(254, 252, 193);
+}
+.DropDown div{
+    text-align: center;
+    color: rgb(77, 98, 206);
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 3%;
+}
