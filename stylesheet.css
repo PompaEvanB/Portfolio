@@ -63,6 +63,9 @@
     width: 46%;
     float: left;
 }
+.ContentText img{
+    width: 100%;
+}
 .ContentText div img{
     width: 100%;
 }
