@@ -59,6 +59,13 @@
 .ContentText{
     font-size: 25px;
 }
+.ContentText div{
+    width: 46%;
+    float: left;
+}
+.ContentText div img{
+    width: 100%;
+}
 
 #GameProjectsHeader{
     font-size: 100px;
