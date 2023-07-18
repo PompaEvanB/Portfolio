@@ -73,3 +73,7 @@
 #GameProjectsHeader{
     font-size: 100px;
 }
+.filler{
+    width: 100%;
+    height: 50px;
+}
