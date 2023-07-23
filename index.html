@@ -7,128 +7,99 @@
     <title>Evan Pompa's Portfolio</title>
 </head>
 <body>
-    <!-- This is the Hero Background Image with my name -->
+    <div id="LinkBar">
+        <a href="#AboutMe">
+        <div>
+            About Me
+        </div>
+        </a>
+        <a href="#GameProjects">
+        <div>
+            Game Projects
+        </div>
+        </a>
+    </div>
+
     <div id="Hero">
-        <div>Evan Pompa</div>
-    </div>
-    <!-- This is the container for the drop down menu -->
-    <div id="DropDownMenuContainer" style="background-color: rgb(254, 252, 193);">
-        <a href="#GameProjectLockOn">
-        <div id="Game Projects" class="DropDown"> 
-            <div>Game Projects</div>
+        Evan Pompa
+        <div>
+            Game Designer, Programmer, Artist
         </div>
-        </a>
-        <a href="#ArtHeader">
-        <div id="Art" class="DropDown"> 
-            <div>Art</div>
-        </div>
-        </a>
-        <a href="#TopLockOn">
-        <div id="About" class="DropDown"> 
-            <div>About</div>
-        </div>
-        </a>
     </div>
-    <div id= "TopLockOn" class="Header" style="height: 50px;"></div>
-    <!-- This is the Header for the About Me section of my portfolio -->
-    <div id="AboutMeHeader" class="Header" style="padding-top: 2%;">
-        <div>About Me</div>
+
+
+
+    <div id="AboutMe" class="title">About Me</div>
+
+    <div class="DoubleContentBlock AboutMeDoubleSection">
+        <div id="Contact"  class="header">Contact</div>
+
+        <div style="padding-left: 2%;">
+            Email: pompa.evan.b@gmail.com <br>
+            <a href="https://www.linkedin.com/in/evan-pompa-bb9550178/">Linkedin: Evan Pompa</a><br>
+        </div>
+
     </div>
-    <!-- This is the content for the About Me section of my portfolio -->
-    <div id="AboutMe" class="ContentBody">
-        <div class="filler"></div>
-        <div>Education</div>
-        <div class="ContentText">
+
+    <div class="DoubleContentBlock AboutMeDoubleSection">
+        <div id="Education" class="header">Education</div>
+
+        <div>
             2020 - 2024 <br>
             University of California Santa Cruz <br>
             B.A. of Art & Design: Games and Playable Media
         </div>
-        <div class="filler"></div>
 
-        <div>Contact</div>
-        <div class="ContentText">
-            Email: pompa.evan.b@gmail.com <br>
-            <a href="https://www.linkedin.com/in/evan-pompa-bb9550178/">Linkedin: Evan Pompa</a><br>
-        </div>
-        <div class="filler"></div>
+    </div>
 
-        <div>Statement</div>
-        <div class="ContentText">
+    <div id="Statement" class="SingleContentBlock">
+        
+        <div id="StatementHeader" class="header">Statement</div>
+
+        <div>
+            <br>
             Hello! My name is Evan Pompa (He/Him). 
-            I am a 20 year old aspiring game developer who wants to create fun unique experiences through video games. <br><br>
+            I am a 20 year old entry-level game developer who wants to create fun unique experiences through video games. <br><br>
             Growing up, video games gave me a sense of wonder, a sense of joy. My dream is to extend these emotions to future generations.
             To make the people of tommorow happy.
         </div>
-        <div class="filler" id="GameProjectLockOn"></div>
-        <div class="filler"></div>
+
     </div>
 
-    <!-- This is the Header for the Game Project section of my portfolio -->
-    <div id="GameProjectsHeader" class="Header">
-        <div>Game Projects</div>
+
+    
+    <div id="GameProjects" class="title">
+        My Game Projects
+        <div id="Instructions">click on project names to play</div>
     </div>
+    
 
-    <!-- This is the content for the Game Project section of my portfolio -->
-    <div id="GameProjects" class="ContentBody">
-        <div class="filler"></div>
-        <div class="center">Bean Reaper</div>
-        <div class="filler"></div>
-        <div class="ContentText" style="padding-bottom: 31%;">
-            <div>
-                Bean Reaper is a 2D platformer game where you can teleport to thrown projectiles. 
-                This game was made for a game jam in Unity, 
-                all work was done by me except for music and sfx.
-                <a href="https://evanpompa.itch.io/bean-reaper"target="_blank">Click here to check it out!</a>
-            </div>
-            <div>
-                <img src="images/br1.png">
-            </div>
-        </div>
-        <div class="filler"></div>
+    <div class="DoubleContentBlock ProjectDoubleSection leftGameObject">
 
-        <div class="center">You're Fired!</div>
-        <div class="filler"></div>
-        <div class="ContentText">
-            <div>
-                'You're Fired' is a 3rd person action game where you play as a bullet trying to eliminate targets.
-                This game was also made in Unity for a game jam, and I worked as a game designer. 
-                <a href="https://anthony-molle.itch.io/youre-fired"target="_blank">Click here to check it out!</a>
-            </div>
-            <div>
-                <img src="images/uf2.png">
-            </div>
-            <div class="filler"></div>
-            <div class="filler"></div>
+        <div class="ProjectItemHeader"><a href="https://evanpompa.itch.io/bean-reaper"target="_blank">Bean Reaper</a></div>
+        
+        <div class="ProjectItemSub">
+            2023 Game Jam Project. Mostly Solo Development. 2D Platformer. Made In Unity.  
         </div>
         
-
-        <div class="center">TimeLine</div>
-        <div class="filler"></div>
-        <div class="ContentText">
-            <div>
-                TimeLine is a 2D platformer where you can use your past actions to interact with the present. 
-                All work except for the sound effects were done by me.
-                <a href="https://evanpompa.itch.io/timeline"target="_blank">Click here to check it out!</a>
-            </div>
-            <div>
-                <img src="images/tl1.png">
-            </div>
+        <div class="ProjectImageLocation">
+            <img src="images/br1.png">
         </div>
-        <div class="filler"></div>
+
     </div>
 
-    <!-- This is the Header for the Art section of my portfolio -->
-    <div id="ArtHeader" class="Header">
-        <div>Art</div>
-    </div>
+    <div class="DoubleContentBlock ProjectDoubleSection RightGameObject">
 
-    <!-- This is the content for the Art section of my portfolio -->
-    <div id="Art" class="ContentBody">
-        <div class="ContentText">
-            <img src="images/tommorows_light.png">
-            <img src="images/reflection.png">
-            <img src="images/Looking_Inbetween.png">
+        <div class="ProjectItemHeader"><a  href="https://anthony-molle.itch.io/youre-fired"target="_blank">You're Fired</a></div>
+        
+        <div class="ProjectItemSub">
+            2023 Game Jam Project. Developed by 6 people. 3D Pilot Game. Made In Unity.
         </div>
+        
+        <div class="ProjectImageLocation">
+            <img src="images/uf2.png">
+        </div>
+
     </div>
 </body>
 </html>
