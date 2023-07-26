@@ -10,6 +10,7 @@ div{
     position: -webkit-sticky;
     position: sticky;
     top: 0%;
+    
 }
 #LinkBar div{
     font-size: 35px;
@@ -72,14 +73,18 @@ div{
 .header{
     width: 100%;
     text-align: center;
-    font-size: 100px;;
+    font-size: 100px;
+}
+.SubjectHeader{
+    text-align: center;
+    font-size: 50px;
 }
 
 
 .DoubleContentBlock{
     font-size: 25px;
     text-align: left;
-    width: 49.9%;
+    width: 49%;
     float: left;
     
 }
@@ -128,6 +133,15 @@ div{
     height: 100%;
     border-radius: 15%;
 }
+.ProjectSpecificIMG{
+    width: 50%;
+    height: 50%;
+    border-radius: 15%;
+}
+
+.HighLight{
+    color: rgb(226, 180, 79);
+}
 
 a:link{
     color: rgb(174, 100, 244);
@@ -141,4 +155,8 @@ a:hover{
     color: rgb(236, 93, 93);
     
     text-decoration: none;
+}
+
+body{
+    min-height: 400vh;
 }
