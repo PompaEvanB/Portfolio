@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
     <title>Evan Pompa's Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script defer src="JavaStyler.js"></script>
 </head>
 <body>
-    <div class="title">Bean Reaper</div>
-    <div class="SubjectHeader">About The Game</div>
+    <div class="title" style="color: rgb(80, 111, 211);">Bean Reaper</div>
+    <div class="SubjectHeader2 SpaceAbove" style="color: rgb(226, 180, 79);">About The Game</div>
     <div class="DoubleContentBlock">
         <div class="ProjectImageLocation">
-            <img src="images/br2.png">
+            <img src="images/BeanReaper/br2.png">
         </div>
     </div>
-    <div class="DoubleContentBlock" style="padding-bottom: 5%;">
+    <div class="DoubleContentBlock" style="margin-bottom: 10%;">
         <br>
         <b class="HighLight">What is the game?</b><br>
         Bean Reaper is a 2D platformer when the player can teleport to projectiles. 
@@ -26,6 +28,24 @@
         <a href="https://evanpompa.itch.io/bean-reaper"target="_blank"><b>Play The Game Here</b></a>
     </div>
 
-    <div class="SubjectHeader">Game Assets</div>
+    <div class="SubjectHeader2 " style="color: rgb(226, 180, 79);">Game Assets</div>
+
+    <div id="brAssetImageWheel" class="imagewheelholder">
+        <br>
+        <div class="buttonholder">
+            <div id="brbL" class="imageWheelButtons" style="float: left;">
+                < 
+            </div>
+            <div id="brbR" class="imageWheelButtons" style="float: right;">
+                >
+            </div>
+        </div>
+        <img src="images/BeanReaper/br3.png">
+        <img src="images/BeanReaper/br4.png" style="display: none;">
+        <img src="images/BeanReaper/br5.png" style="display: none;">
+        <img src="images/BeanReaper/br6.png" style="display: none;">
+
+    </div>
+
 </body>
 </html>
