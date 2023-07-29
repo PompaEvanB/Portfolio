@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(28, 28, 28);
+    font-family: Arial, Helvetica, monospace;
+    font-weight: bold;
+}
+div{
+    color: whitesmoke;
+    font-size: 1.5vw;
+}
+
+.FontSizeHero{
+    font-size: 7vw;
+    text-align: center;
+}
+.FontSizeTitle{
+    font-size: 6vw;
+}
+.FontSizeHeader{
+    font-size: 5vw;
+}
+.FontSizeSubHeader{
+    font-size: 4vw;
+}
+.FontSizeSubTitle{
+    font-size: 3vw;
+}
+.FontAlignCenter{
+    text-align: center;
+}
+
+.PageMarginMin{
+    margin-left: 7vw;
+}
+.leftfloat{
+    float: left;
+}
+.rightfloat{
+    float: right;
+}
+
+.borderright{
+    border-right: 1px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-color: white;
+    border-style: dashed;
+}
+
+#Hero{
+    width: 100%;
+    height: 40vw;
+    background-color: aqua;
+    background-image: url('images/HeroArt.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -7vw;
+    margin-bottom: 1vw;
+}
+#IndexHeroTitle{
+    padding-top: 12vw;
+    text-shadow: 0.3vw 0.3vw black;
+}
+#IndexHeroSubTitle{
+    text-shadow: 0.2vw 0.1vw black;
+}
+
+#QuickContactContainer{
+    width: 100%;
+    height: 4vw;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+.QuickContacts{
+    width: 4.5%;
+    height: 4vw;
+    float: left;
+    margin-right: 1vw;
+}
+.QuickContacts img{
+    width: 100%;
+    height: 100%;
+    border-radius: 60%;
+    
+}
+#FirstQuickLink{
+    margin-left: 41.5vw;
+    
+}
+
+#AboutMeTitle{
+    margin-bottom: 4vw;
+}
+.DoubleContentContainer{
+    width: 80%;
+    margin-left: 10%;
+}
+.DoubleContentOne{
+    float: left;
+    width: 49.9%;
+}
+.DoubleContentTwo{
+    float: left;
+    width: 50%;
+}
+.DoubleContentImg{
+    width: 25vw;
+    min-height: 20vw;
+    max-height: 25vw;
+    border-radius: 10%;
+}
+
+#GameProjects{
+    margin-bottom: 4vw;
+}
+#GameJams{
+    margin-bottom: 3vw;
+}
+#PersonalProjects{
+    margin-bottom: 3vw;
+}
