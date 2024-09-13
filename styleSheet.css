@@ -119,3 +119,21 @@ div{
 #PersonalProjects{
     margin-bottom: 3vw;
 }
+
+
+.MenuBar button
+{
+    float: left;
+    width: 33%;
+    text-align: center;
+
+    font-family: Arial, Helvetica, monospace;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    background-color: rgb(28, 28, 28);
+}
+#EmptyBodyContainer
+{
+    height: 1500px;
+}
