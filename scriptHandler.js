@@ -1,7 +1,7 @@
 $(function(){
     // jQuery methods go here...
-    //$("#QualificationsDiv").hide();
-    $("#ProjectsDiv").hide();
+    $("#QualificationsDiv").hide();
+    //$("#ProjectsDiv").hide();
 
     $("#QualificationsButton").click(function(){
         $("#QualificationsDiv").show();

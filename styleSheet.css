@@ -7,46 +7,6 @@ div{
     color: whitesmoke;
     font-size: 1.5vw;
 }
-
-.FontSizeHero{
-    font-size: 7vw;
-    text-align: center;
-}
-.FontSizeTitle{
-    font-size: 6vw;
-}
-.FontSizeHeader{
-    font-size: 5vw;
-}
-.FontSizeSubHeader{
-    font-size: 4vw;
-}
-.FontSizeSubTitle{
-    font-size: 3vw;
-}
-.FontAlignCenter{
-    text-align: center;
-}
-
-.PageMarginMin{
-    margin-left: 7vw;
-}
-.leftfloat{
-    float: left;
-}
-.rightfloat{
-    float: right;
-}
-
-.borderright{
-    border-right: 1px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-top: 0px;
-    border-color: white;
-    border-style: dashed;
-}
-
 #Hero{
     width: 100%;
     height: 40vw;
@@ -57,13 +17,19 @@ div{
     background-position: center -7vw;
     margin-bottom: 1vw;
 }
-#IndexHeroTitle{
+.FontSizeHero{
+    font-size: 7vw;
+    text-align: center;
+}
+#HeroTitle{
     padding-top: 12vw;
     text-shadow: 0.3vw 0.3vw black;
 }
-#IndexHeroSubTitle{
+#HeroSubTitle{
     text-shadow: 0.2vw 0.1vw black;
+    text-align: center;
 }
+
 
 #QuickContactContainer{
     width: 100%;
@@ -87,38 +53,6 @@ div{
     margin-left: 39vw;
 }
 
-#AboutMeTitle{
-    margin-bottom: 4vw;
-}
-.DoubleContentContainer{
-    width: 80%;
-    margin-left: 10%;
-}
-.DoubleContentOne{
-    float: left;
-    width: 49.9%;
-}
-.DoubleContentTwo{
-    float: left;
-    width: 50%;
-}
-.DoubleContentImg{
-    width: 25vw;
-    min-height: 20vw;
-    max-height: 25vw;
-    border-radius: 10%;
-}
-
-#GameProjects{
-    margin-bottom: 4vw;
-}
-#GameJams{
-    margin-bottom: 3vw;
-}
-#PersonalProjects{
-    margin-bottom: 3vw;
-}
-
 
 .MenuBar button
 {
@@ -132,7 +66,17 @@ div{
     font-size: 1.5vw;
     background-color: rgb(28, 28, 28);
 }
+
 #EmptyBodyContainer
 {
     height: 1500px;
+}
+.Project
+{
+    width: 15%;
+    height: 13vw;
+    background-color: aliceblue;
+    float: left;
+    margin-right: 1%;
+    border-radius: 15%;
 }
