@@ -1,7 +1,10 @@
 $(function(){
     // jQuery methods go here...
     $("#QualificationsDiv").hide();
-    //$("#ProjectsDiv").hide();
+    $("#ProjectsDiv").hide();
+    $("#Evocation").hide();
+
+
 
     $("#QualificationsButton").click(function(){
         $("#QualificationsDiv").show();
@@ -10,5 +13,8 @@ $(function(){
     $("#ProjectsButton").click(function(){
         $("#ProjectsDiv").show();
         $("#QualificationsDiv").hide();
+    });
+    $("#EvocationButton").click(function(){
+        $("#Evocation").show();
     });
 });
