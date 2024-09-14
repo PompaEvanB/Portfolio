@@ -1,14 +1,14 @@
 $(function(){
     // jQuery methods go here...
-    //$("#ResumeDiv").hide();
+    //$("#QualificationsDiv").hide();
     $("#ProjectsDiv").hide();
 
-    $("#ResumeButton").click(function(){
-        $("#ResumeDiv").show();
+    $("#QualificationsButton").click(function(){
+        $("#QualificationsDiv").show();
         $("#ProjectsDiv").hide();
     });
     $("#ProjectsButton").click(function(){
         $("#ProjectsDiv").show();
-        $("#ResumeDiv").hide();
+        $("#QualificationsDiv").hide();
     });
 });

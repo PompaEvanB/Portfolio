@@ -72,20 +72,19 @@ div{
     margin-bottom: 2vw;
 }
 .QuickContacts{
-    width: 4.5%;
-    height: 4vw;
+    width: 2.5vw;
+    height: 2.5vw;
     float: left;
-    margin-right: 1vw;
+    padding-right: 1vw;
 }
 .QuickContacts img{
     width: 100%;
     height: 100%;
-    border-radius: 60%;
+    border-radius: 10%;
     
 }
 #FirstQuickLink{
-    margin-left: 41.5vw;
-    
+    margin-left: 39vw;
 }
 
 #AboutMeTitle{
