@@ -1,59 +1,62 @@
-function HideProjects(){
+ function HideAll(){
     $("#Evocation").hide();
     $("#Sledge").hide();
     $("#BitllutHill").hide();
     $("#TimeLine").hide();
     $("#YoureFired").hide();
+    $("#Resume").hide();
+    $("#Bio").hide();
+    $("#Home").hide();
  }
 
 $(function(){
     // jQuery methods go here...
 
-    // Set these to hidden by default...
-    $("#QualificationsDiv").hide();
-    $("#ProjectsDiv").hide();
-    HideProjects(); // hides projects on start NOT by default
+    HideAll(); // hides projects on start NOT by default
 
-    // Shows qualifications, hides all projects and project container
-    $("#QualificationsButton").click(function(){
-        $("#QualificationsDiv").show();
-        $("#ProjectsDiv").hide();
-        HideProjects();
+    $("#HomeButton").click(function(){
+        HideAll();
+        $("#Home").show();
     });
 
-    // Present the option to look at all projects
-    $("#ProjectsButton").click(function(){
-        $("#ProjectsDiv").show();
-        $("#QualificationsDiv").hide();
+    $("#BioButton").click(function(){
+        HideAll();
+        $("#Bio").show();
+    });
+
+    // Shows qualifications, hides all projects and project container
+    $("#ResumeButton").click(function(){
+        HideAll();
+        $("#Resume").show();
     });
 
     // When Evocation is clicked. Hide other projects and show itself
     $("#EvocationButton").click(function(){
-        HideProjects();
+        HideAll();
         $("#Evocation").show();
     });
 
     // When Sledge is clicked. Hide other projects and show itself
     $("#SledgeButton").click(function(){
-        HideProjects();
+        HideAll();
         $("#Sledge").show();
     });
 
     // When BitllutHill is clicked. Hide other projects and show itself
     $("#BitllutHillButton").click(function(){
-        HideProjects();
+        HideAll();
         $("#BitllutHill").show();
     });
 
     // When TimeLine is clicked. Hide other projects and show itself
     $("#TimeLineButton").click(function(){
-        HideProjects();
+        HideAll();
         $("#TimeLine").show();
     });
 
     // When Youre Fired is clicked. Hide other projects and show itself
     $("#YoureFiredButton").click(function(){
-        HideProjects();
+        HideAll();
         $("#YoureFired").show();
     });
 });
