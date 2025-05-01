@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(252, 252, 241);
+    margin: 0;
+    background: rgb(255, 232, 194);
     font-family: Arial, Helvetica, monospace;
     font-weight: bold;
 }
@@ -7,96 +8,71 @@ div{
     color: rgb(15, 13, 19);
     font-size: 1.5vw;
 }
+@font-face 
+{ 
+    /*
+    font-family: KidsMagazine; 
+    src: url('KidsMagazine.ttf'); 
+
+    font-family: Rubica; 
+    src: url('Rubica.ttf'); 
+    */
+    font-family: LemonMocktail; 
+    src: url('LemonMocktail.ttf'); 
+}
+
 #Hero{
-    width: 100%;
-    height: 15vw;
-    background-color: rgb(252, 211, 47);
-   /* background-image: url('images/HeroArt.png'); */
-   /* background-repeat: no-repeat; */
-   /* background-size: cover; */
-   /* background-position: center -7vw;*/
-    margin-bottom: 5vw;
-    border-radius: 30px;
+    max-width: 100%;
+    height: 20vw;
+    /*background-color: rgb(223, 81, 63);*/
+    background: rgb(223, 81, 63);
 }
 .FontSizeHero{
-    font-size: 5vw;
+    font-size: 10vw;
     text-align: center;
     font-variant: small-caps;
     font-stretch:ultra-expanded;
     font-weight: normal;
     transform: scale(1, 1.2);
+    color: rgb(255, 232, 194);
+
+    font-family: LemonMocktail;
 }
 #HeroTitle{
-    padding-top: 3.5vw;
-    text-shadow: 0.3vw 0.3vw rgb(236, 172, 53);
+    padding-top: 1.5vw;
 }
 #HeroSubTitle{
-    /*text-shadow: 0.2vw 0.1vw black;*/
-    text-align: center;
-}
-
-
-#QuickContactContainer{
-    width: 100%;
-    height: 4vw;
-    text-align: center;
-    margin-bottom: 2vw;
-}
-.QuickContacts{
-    width: 2.5vw;
-    height: 2.5vw;
-    float: left;
-    padding-right: 1vw;
-}
-.QuickContacts img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10%;
-    
-}
-#FirstQuickLink{
-    margin-left: 39vw;
+    padding-top: 1.5vw;
+    font-size: 2vw;
 }
 
 .MenuBar
 {
-    margin-left: 25%;
-    position: -webkit-sticky;
+    /*margin-left: 25%;*/
     position: sticky;
-    bottom: 0;
-    width: 50vw;
-    height: 6vw;
-    /*background-color: aqua;*/
+    overflow: hidden;
+    width: 100%;
+    height: 2vw;
+    top: 0;
+    background-color: rgb(223, 81, 63);
+    padding-bottom: 1vh;
+    z-index: 1;
 }
-.MenuBar button
+.MenuBar div
 {
-    /* make buttons on bottom of div ?*/
-    float: left;
-    width: 5vw;
-    height: 5vw;
+    float: Right;
+    width: 10vw;
+    height: 2vw;
     text-align: center;
     margin-right: 1vw;
     font-family: Arial, Helvetica, monospace;
     font-weight: bold;
-    color: rgb(252, 252, 241);
+    color: rgb(21, 24, 36);
     font-size: 1.5vw;
-    background-color: rgb(15, 13, 19);
-    border-radius: 20%;
-    border-style: groove;
-    border-color: rgb(252, 211, 47);
-    border-width: 0.5vw;
-    transition-property: width, height;
-    transition: width 0.5s, height 0.5s;
-}
-.MenuButton:hover
-{
-    width: 6vw;
-    height: 6vw;
+    background-color: rgb(223, 81, 63);
 }
 
-/*
 #EmptyBodyContainer
 {
-    /*height: 1500px;
+    max-width: 100%;
 }
-*/

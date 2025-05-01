@@ -4,30 +4,24 @@
     $("#BitllutHill").hide();
     $("#TimeLine").hide();
     $("#YoureFired").hide();
-    $("#Resume").hide();
     $("#Bio").hide();
-    $("#Home").hide();
+    $("#Contact").hide();
  }
 
 $(function(){
     // jQuery methods go here...
 
     HideAll(); // hides projects on start NOT by default
-
-    $("#HomeButton").click(function(){
-        HideAll();
-        $("#Home").show();
-    });
+    $("#Bio").show();
 
     $("#BioButton").click(function(){
         HideAll();
         $("#Bio").show();
     });
 
-    // Shows qualifications, hides all projects and project container
-    $("#ResumeButton").click(function(){
+    $("#ContactButton").click(function(){
         HideAll();
-        $("#Resume").show();
+        $("#Contact").show();
     });
 
     // When Evocation is clicked. Hide other projects and show itself
