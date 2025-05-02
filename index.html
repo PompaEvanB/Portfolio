@@ -11,16 +11,19 @@
     <body>
 
         <div class="MenuBar">
-            <div id="ContactButton" class="MenuButton">Contact me</div>
-            <div id="BioButton" class="MenuButton">About me</div>
-            <div id="ProjectsButton" class="MenuButton">Projects</div>
+            <div id="ContactButton" class="MenuButton"><p>Contact me</p></div>
+            <div id="BioButton" class="MenuButton"><p>About me</p></div>
+            <div id="ProjectsButton" class="MenuButton" style="position: relative; display: inline-block;">
+                <p>Projects</p>
+                <div id="dropdown-content">
+                    <div id="SledgeButton" class="MenuButton"><p>Sledge</p></div>
+                    <div id="EvocationButton" class="MenuButton"><p>Evocation</p></div>
+                    <div id="TimeLineButton" class="MenuButton"><p>TimeLine</p></div>
+                    <div id="YoureFiredButton" class="MenuButton"><p>YoureFired</p></div>
+                </div>
+            </div>
             <!--
-            <div id="BioButton" class="MenuButton">me</div>
-            <div id="SledgeButton" class="MenuButton">G1</div>
-            <div id="EvocationButton" class="MenuButton">G2</div>
-            <div id="BitllutHillButton" class="MenuButton">G3</div>
-            <div id="TimeLineButton" class="MenuButton">G4</div>
-            <div id="YoureFiredButton" class="MenuButton">G5</div>
+
             -->
         </div>
         
@@ -34,217 +37,213 @@
         </div>
 
         <div id="EmptyBodyContainer">
-            <div id="ProjectsContainer" style="margin-top: 5vw; margin-left: 17%; width: 65%;">
 
-                <div id="Bio" style="float: left; height: 100vh; background-color: brown;">
-                    <div style="height: 55vh;">
-                        <div style="float: left; width: 50%;">
-                            <img style="width: 65%; border-radius: 20%; margin-left: 17%" src="images/Evan.jpg">
-                        </div>
-                        <div style="float: left; width: 50%; margin-top: 5%;">
+            <div id="Bio">
+
+                <div class="DualBlockParent">
+                    <div>
+                        <img id="HeadShot" src="images/Evan.jpg">
+                    </div>
+
+                    <div id="Introduction">
+                        <p>
                             Hello! My name is Evan Pompa (He/Him). I am a 22-year-old game designer / level designer who wants to create fun unique experiences through video games.
                             Growing up, video games gave me a sense of wonder, a sense of joy. My dream is to extend these emotions to future generations. To make the people of tomorrow happy.
-                        </div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="width: 50%; float: left;">
-                            <h1>Education</h1>
-                            <p>
-                                Sept 2020 - June 2024 <br><br>
-        
-                                University of California Santa Cruz <br><br>
-        
-                                B.A. of Art & Design: Games and Playable Media <br>
-                            </p>
-                        </div>
-                        <div style="width: 50%; float: left;">
-                            <h1>Skills</h1>
-                            <p>
-                                C#<br>
-                                Unity<br>
-                                Blender<br>
-                                Git<br>
-                                HTML/CSS<br>
-                                Java Script<br>
-                                Python<br>
-                                C++<br>
-                            </p>
-                        </div>
+                        </p>
                     </div>
                 </div>
 
-                <div id="Contact" style="text-align: center;">
-                    Email: pompa.evan.b@gmail.com <br>
-                    <a href="https://www.linkedin.com/in/evan-pompa-bb9550178/">LinkedIn</a>: Evan Pompa<br>
-                    <a href="https://x.com/PompaEvanB">Twiiter/X</a>:@PompaEvanB<br>
-                    <a href="https://evanpompa.itch.io/">Itch.io</a>: Evan Pompa<br>
+                <div class="DualBlockParent">
+                    <div>
+                        <h1 class="HighLight">Education</h1>
+                        <p>
+                            Sept 2020 - June 2024 <br><br>
+
+                            University of California Santa Cruz <br><br>
+
+                            B.A. of Art & Design: Games and Playable Media <br>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h1 class="HighLight">Skills</h1>
+                        <p>
+                            C#<br>
+                            Unity<br>
+                            Blender<br>
+                            Git<br>
+                            HTML/CSS<br>
+                            Java Script<br>
+                            Python<br>
+                            C++<br>
+                        </p>
+                    </div>
                 </div>
+            </div>
 
-                <div id="Evocation">
-                    <h1>Evocation</h1>
-                    <h2>Project Role: Game Designer / Level Designer</h2>
-                    <h2>Initial Ideation</h2>
-                    <p>
-                        Initially, the started off as a puzzle game where the
-                        player could use a ball to change their surroundings.
-                        Like a forcefield that would either reveal the past or present.
-                        It could be thrown or dropped to keep some puzzle elements
-                        active while you were away from it.
-                        Eventually, we wanted to increase the pace of the game,
-                        so we made it a platformer. Creatively revealing the past was
-                        the core of our game, so we decided to let players be as creative
-                        as they want. Removing entire pieces of the level if they wanted to,
-                        the execution of these actions became the puzzle we were designing.
-                    </p>
-                    <h2>Mechanics Design</h2>
-                    <p>
-                        In the final game, the ball that reveals the past is more like a spotlight
-                        that is controlled with the mouse. Removing geometry in the world the
-                        player is in or revealing geometry for them to use. Mapping the
-                        spotlight to the mouse made the most sense because we wanted
-                        the player to move it at whatever speed they were comfortable with.
-                    </p>
-                    <h2>Level Design</h2>
-                    <p>
-                        In the first section of the game. The player is forced to use their ability to proceed.
-                        The solution is straight forward,
-                        they must use the spotlight to create a bridge using hidden geometry.
-                        Since this is at the very start of the level, failure has little consequence.
+            <div id="Contact">
+                <h1 class="HighLight">Contacts</h1>
+                Email: pompa.evan.b@gmail.com <br>
+                <a href="https://www.linkedin.com/in/evan-pompa-bb9550178/">LinkedIn</a>: Evan Pompa<br>
+                <a href="https://x.com/PompaEvanB">Twiiter/X</a>:@PompaEvanB<br>
+                <a href="https://evanpompa.itch.io/">Itch.io</a>: Evan Pompa<br>
+            </div>
 
-                        As the game goes on, the challenges become more nonlinear.
-                        The best example is at this intersection where the player
-                        has to reveal platforms to move upward. But they don't have
-                        to follow the intended path. Instead, they can make a hole in
-                        the far-right wall and skip the section entirely.
-                    </p>
-                </div>
+            <div id="Evocation">
+                <h1>Evocation</h1>
+                <h2>Project Role: Game Designer / Level Designer</h2>
+                <h2>Initial Ideation</h2>
+                <p>
+                    Initially, the started off as a puzzle game where the
+                    player could use a ball to change their surroundings.
+                    Like a forcefield that would either reveal the past or present.
+                    It could be thrown or dropped to keep some puzzle elements
+                    active while you were away from it.
+                    Eventually, we wanted to increase the pace of the game,
+                    so we made it a platformer. Creatively revealing the past was
+                    the core of our game, so we decided to let players be as creative
+                    as they want. Removing entire pieces of the level if they wanted to,
+                    the execution of these actions became the puzzle we were designing.
+                </p>
+                <h2>Mechanics Design</h2>
+                <p>
+                    In the final game, the ball that reveals the past is more like a spotlight
+                    that is controlled with the mouse. Removing geometry in the world the
+                    player is in or revealing geometry for them to use. Mapping the
+                    spotlight to the mouse made the most sense because we wanted
+                    the player to move it at whatever speed they were comfortable with.
+                </p>
+                <h2>Level Design</h2>
+                <p>
+                    In the first section of the game. The player is forced to use their ability to proceed.
+                    The solution is straight forward,
+                    they must use the spotlight to create a bridge using hidden geometry.
+                    Since this is at the very start of the level, failure has little consequence.
 
-                <div id="Sledge">
-                    <h1>Sledge</h1>
-                    <h2>Project Role: Game Designer / Level Designer / programmer</h2>
-                    <h2>Game Concept</h2>
-                    <p>Use a hammer to rapidly propel yourself.</p>
-                    <h2>Initial Ideation</h2>
-                    <p>
-                        The core of this game is the hammer. But how the hammer
-                        was going to be used was up in the air. We wanted this game
-                        to be all about movement, so initially the player didn't 
-                        have a jump. This was so players would focus more on the 
-                        hammer itself. The problem was players found it difficult
-                        to make small hammer bounces, so we added a small jump. 
-                        We also weren't sure what we wanted the format of the game
-                        to be. There were initial talks of it being open world or 
-                        more of an exploration game. But eventually we landed on 
-                        level-based game play with some exploration. Kind of like 
-                        classic 2D sonic games.
-                    </p>
-                    <h2>Mechanics Design</h2>
-                    <p>
-                        The mechanics of the hammer are very similar to how rocket
-                        jumping works in most games. By angling the hammer at the ground
-                        behind you, the force pushes you in the opposite direction. These
-                        can be chained together to get to high speeds. There's also a parry/light
-                        swing. This is for parrying enemy projectiles or for hitting an enemy without
-                        sending yourself flying.
-                    </p>
-                    <h2>Level Design</h2>
-                    <p>
-                        So far, I have made levels one, three, and four. Each level serves a purpose and has a theme.
-                        
-                        <br>
-                        <br>
-                        Level One: Basics
-                        <br>
-                        <br>
-                        The whole point of level one is to teach players how to play the game.
-                        The first few challenges can be done without the hammer, and eventually
-                        indicators are placed in the level for where to use the hammer. Ending
-                        the level with a big hamer bounce off of a wall. The first instance where
-                        you have to chain two bounces together.
-                        <br>
-                        <br>
-                        Level Three: Walls
-                        <br>
-                        <br>
-                        Level three is all about using walls to gain speed or height.
-                        Several big walls are used throughout the level to help players
-                        get to the next area, and basically every wall can be used in this way.
-                        <br>
-                        <br>
-                        Level Four: Intertwining paths
-                        <br>
-                        <br>
-                        This level is technically incomplete, but a lot of it has been revised.
-                        This level has two main paths, and switching between these paths is the
-                        key to success. Each path by themselves is long, but when you swap between
-                        them, you can beat the level fairly quickly.
-                    </p>
-                </div>
+                    As the game goes on, the challenges become more nonlinear.
+                    The best example is at this intersection where the player
+                    has to reveal platforms to move upward. But they don't have
+                    to follow the intended path. Instead, they can make a hole in
+                    the far-right wall and skip the section entirely.
+                </p>
+            </div>
 
-                <div id="BitllutHill">
-                    <h1>BitllutHill</h1>
-                    <h2>Project Role</h2>
-                    <p>
-                        Mechanic Designer, Level Designer, core programmer
-                    </p>
-                </div>
+            <div id="Sledge">
+                <h1>Sledge</h1>
+                <h2>Project Role: Game Designer / Level Designer / programmer</h2>
+                <h2>Game Concept</h2>
+                <p>Use a hammer to rapidly propel yourself.</p>
+                <h2>Initial Ideation</h2>
+                <p>
+                    The core of this game is the hammer. But how the hammer
+                    was going to be used was up in the air. We wanted this game
+                    to be all about movement, so initially the player didn't 
+                    have a jump. This was so players would focus more on the 
+                    hammer itself. The problem was players found it difficult
+                    to make small hammer bounces, so we added a small jump. 
+                    We also weren't sure what we wanted the format of the game
+                    to be. There were initial talks of it being open world or 
+                    more of an exploration game. But eventually we landed on 
+                    level-based game play with some exploration. Kind of like 
+                    classic 2D sonic games.
+                </p>
+                <h2>Mechanics Design</h2>
+                <p>
+                    The mechanics of the hammer are very similar to how rocket
+                    jumping works in most games. By angling the hammer at the ground
+                    behind you, the force pushes you in the opposite direction. These
+                    can be chained together to get to high speeds. There's also a parry/light
+                    swing. This is for parrying enemy projectiles or for hitting an enemy without
+                    sending yourself flying.
+                </p>
+                <h2>Level Design</h2>
+                <p>
+                    So far, I have made levels one, three, and four. Each level serves a purpose and has a theme.
+                    
+                    <br>
+                    <br>
+                    Level One: Basics
+                    <br>
+                    <br>
+                    The whole point of level one is to teach players how to play the game.
+                    The first few challenges can be done without the hammer, and eventually
+                    indicators are placed in the level for where to use the hammer. Ending
+                    the level with a big hamer bounce off of a wall. The first instance where
+                    you have to chain two bounces together.
+                    <br>
+                    <br>
+                    Level Three: Walls
+                    <br>
+                    <br>
+                    Level three is all about using walls to gain speed or height.
+                    Several big walls are used throughout the level to help players
+                    get to the next area, and basically every wall can be used in this way.
+                    <br>
+                    <br>
+                    Level Four: Intertwining paths
+                    <br>
+                    <br>
+                    This level is technically incomplete, but a lot of it has been revised.
+                    This level has two main paths, and switching between these paths is the
+                    key to success. Each path by themselves is long, but when you swap between
+                    them, you can beat the level fairly quickly.
+                </p>
+            </div>
 
-                <div id="TimeLine">
-                    <h1>Timeline</h1>
-                    <h2>Project Role: Sole Creator</h2>
-                    <h2>Game Concept</h2>
-                    <p>Create a 2d platformer where the player uses their 
-                        movements in the past to solve puzzles in the present.
-                    </p>
-                    <h2>Initial Ideation</h2>
-                    <p>The initial ideation of this game did not change much
-                       from the final design given that I had two days to
-                       make the game. I wanted to make a game where the players
-                       past actions could affect the current situation they
-                       were in. Having the player use buttons or levers in
-                       the past seemed like a direct way they could interact
-                       with objects like doors or platforms. 
-                    </p>
-                    <h2>Mechanics Design</h2>
-                    <p>
-                        The player can start recording their actions with the "F" key.
-                        To play their actions again, press "G". To cancel press "R".
-                        When the recording starts, a clone of the player will be dropped
-                        where the player was standing. It cannot be interacted with.
-                        Once the player presses play, the clone will do all of the actions you
-                        just did at the same speed. This lets your past actions help you
-                        progress through the level.
-                    </p>
-                    <h2>Level Design</h2>
-                    <p>
-                        The level design is a series of small puzzles to showcase the main mechanic.
-                        For example, the first challenge require the player to record themselves on a button
-                        to get through a locked door.
-                    </p>
-                    <h2>Final Thoughts</h2>
-                    <p>
-                        This is one of the games I think of the most.
-                        I really love the concept, but it is really rough around the edges.
-                        It was one of my first games ever, and I didn't have a lot of time to make it.
-                    </p>
-                </div>
+            <div id="TimeLine">
+                <h1>Timeline</h1>
+                <h2>Project Role: Sole Creator</h2>
+                <h2>Game Concept</h2>
+                <p>Create a 2d platformer where the player uses their 
+                    movements in the past to solve puzzles in the present.
+                </p>
+                <h2>Initial Ideation</h2>
+                <p>The initial ideation of this game did not change much
+                    from the final design given that I had two days to
+                    make the game. I wanted to make a game where the players
+                    past actions could affect the current situation they
+                    were in. Having the player use buttons or levers in
+                    the past seemed like a direct way they could interact
+                    with objects like doors or platforms. 
+                </p>
+                <h2>Mechanics Design</h2>
+                <p>
+                    The player can start recording their actions with the "F" key.
+                    To play their actions again, press "G". To cancel press "R".
+                    When the recording starts, a clone of the player will be dropped
+                    where the player was standing. It cannot be interacted with.
+                    Once the player presses play, the clone will do all of the actions you
+                    just did at the same speed. This lets your past actions help you
+                    progress through the level.
+                </p>
+                <h2>Level Design</h2>
+                <p>
+                    The level design is a series of small puzzles to showcase the main mechanic.
+                    For example, the first challenge require the player to record themselves on a button
+                    to get through a locked door.
+                </p>
+                <h2>Final Thoughts</h2>
+                <p>
+                    This is one of the games I think of the most.
+                    I really love the concept, but it is really rough around the edges.
+                    It was one of my first games ever, and I didn't have a lot of time to make it.
+                </p>
+            </div>
 
-                <div id="YoureFired">
-                    <h1>You're Fired</h1>
-                    <h2>Project Role: </h2>
-                    <h2>Game Concept</h2>
-                    <p></p>
-                    <h2>Initial Ideation</h2>
-                    <p></p>
-                    <h2>Mechanics Design</h2>
-                    <p></p>
-                    <h2>Level Design</h2>
-                    <p></p>
-                    <h2>Final Thoughts</h2>
-                    <p></p>
-                </div>
-
-            </div> <!-- Project Container -->
+            <div id="YoureFired">
+                <h1>You're Fired</h1>
+                <h2>Project Role: </h2>
+                <h2>Game Concept</h2>
+                <p></p>
+                <h2>Initial Ideation</h2>
+                <p></p>
+                <h2>Mechanics Design</h2>
+                <p></p>
+                <h2>Level Design</h2>
+                <p></p>
+                <h2>Final Thoughts</h2>
+                <p></p>
+            </div>
         </div> <!-- Empty Body Container -->
     </body>
 </html>

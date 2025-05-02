@@ -1,7 +1,6 @@
  function HideAll(){
     $("#Evocation").hide();
     $("#Sledge").hide();
-    $("#BitllutHill").hide();
     $("#TimeLine").hide();
     $("#YoureFired").hide();
     $("#Bio").hide();
@@ -10,9 +9,9 @@
 
 $(function(){
     // jQuery methods go here...
-
+    $("#dropdown-content").hide();
     HideAll(); // hides projects on start NOT by default
-    $("#Bio").show();
+    $("#Bio").show(); // Start off with the BIO as the home screen
 
     $("#BioButton").click(function(){
         HideAll();
@@ -36,12 +35,6 @@ $(function(){
         $("#Sledge").show();
     });
 
-    // When BitllutHill is clicked. Hide other projects and show itself
-    $("#BitllutHillButton").click(function(){
-        HideAll();
-        $("#BitllutHill").show();
-    });
-
     // When TimeLine is clicked. Hide other projects and show itself
     $("#TimeLineButton").click(function(){
         HideAll();
@@ -53,4 +46,11 @@ $(function(){
         HideAll();
         $("#YoureFired").show();
     });
+
+    $("#ProjectsButton").hover(function(){
+        $("#dropdown-content").show();
+      }, function() {
+        $("#dropdown-content").hide();
+      }
+    );
 });
