@@ -1,11 +1,12 @@
 body{
     margin: 0;
     background: rgb(255, 232, 194);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 div{
-    color: rgb(58, 35, 32);
+    color: rgb(90, 38, 32);
     font-size: 1.3vw;
 }
 p
@@ -64,7 +65,7 @@ p
     height: 2vw;
     text-align: center;
     margin-right: 1vw;
-    font-family: Arial, Helvetica, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: rgb(58, 35, 32);
     font-size: 1vw;
@@ -80,7 +81,7 @@ p
 .MenuBar div p
 {
     margin-top: 4%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 #dropdown-content
