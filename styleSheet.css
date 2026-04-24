@@ -47,7 +47,7 @@ p
 .MenuBar
 {
     display: flex;
-    flex-direction: row-reverse;
+    /*flex-direction: row-reverse;*/
     justify-content: flex-start;
     position: sticky;
     width: 100%;
@@ -56,11 +56,12 @@ p
     background-color: rgb(223, 81, 63);
     /*rgb(223, 81, 63)*/
     z-index: 1;
+    padding-bottom: 1%;
 }
 .MenuBar div
 {
     margin-top: 0.2%;
-    float: Right;
+    /*float: Right;*/
     width: 10vw;
     height: 2vw;
     text-align: center;
