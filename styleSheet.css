@@ -75,10 +75,20 @@ p
     font-size: 1.5rem;
     margin-left: 25%;
     margin-top: 10%;
+    transition: width 0.5s, height 0.5s, margin-left 0.5s, margin-top 0.5s;
+}
+#Projects div:hover
+{
+    width:11rem;
+    height: 16rem;
+    margin-left: 24%;
+    margin-top: 9%;
+    transition: width 0.5s, height 0.5s, margin-left 0.5s, margin-top 0.5s;
 }
 #Projects div p
 {
     margin-left: 1rem;
+    font-size: 1.2rem;
 }
 
 #Bio
@@ -103,7 +113,7 @@ p
 
 #Contacts
 {
-    /*background-color:#F46666;*/
+    background-color:#F46666;
     width: 15rem;
     height: 2.5rem;
     margin-left: 40%;
@@ -119,5 +129,4 @@ p
     width: 3rem;
     height: 2.5rem;
     margin-right: 0.5rem;
-    
 }
