@@ -36,9 +36,20 @@ p
     border-width: 1rem;
     border-radius: 1rem;
 }
+.BorderC
+{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-width: 1rem;
+}
 .BrownBS
 {
     box-shadow: 1rem 1rem #392D2E;
+}
+.BubbleGradient
+{
+    background-color: #F46666;
+    background-image: linear-gradient(to bottom right, #F46666, #de4e4e);
 }
 
 #Name
@@ -51,7 +62,14 @@ p
     text-align: center;
     margin-left: 11%;
     margin-bottom: 3%;
-    
+    transition: 0.5s;;
+}
+#Name:hover
+{
+    width: 77%;
+    height: 16rem;
+    transition: 0.5s;
+    margin-left: 10%;
 }
 
 #Title
@@ -98,6 +116,14 @@ p
     height: 20rem;
     float: left;
     margin-left: 5%;
+    transition: 0.5s;
+}
+#Bio:hover
+{
+    width: 51%;
+    height: 21rem;
+    margin-left: 4%;
+    transition: 0.5s;
 }
 #Bio div
 {
@@ -115,18 +141,30 @@ p
 {
     background-color:#F46666;
     width: 15rem;
-    height: 2.5rem;
-    margin-left: 40%;
-    margin-bottom: 1%;
+    height: 3rem;
+    margin-left: 17%;
+    /*margin-bottom: 1%;*/
 }
 #Contacts div
 {
     width: 15rem;
     height: 2.5rem;
+    text-align: center;
 }
 #Contacts img
 {
+    width: 2.8rem;
+    height: 2.3rem;
+    margin-right: 0.5rem;
+    margin-top: 0.7rem;
+    filter: invert(0%);
+    transition: filter 0.3s,width 0.5s,height 0.5s,margin-top 0.5s;
+}
+#Contacts img:hover
+{
     width: 3rem;
     height: 2.5rem;
-    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    filter: invert(80%) sepia(100%);
+    transition: filter 0.3s,width 0.5s,height 0.5s,margin-top 0.5s;
 }
