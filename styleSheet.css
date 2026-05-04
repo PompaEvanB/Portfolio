@@ -16,7 +16,15 @@ p
 }
 @font-face {
   font-family: Rubica;
-  src: url(Bungee-Regular.ttf);
+  src: url(fonts/Bungee-Regular.ttf);
+}
+a:link
+{
+    color: #FAE3B3;
+}
+a:visited
+{
+    color: #FAE3B3;
 }
 
 .Padding
@@ -52,7 +60,7 @@ p
     background-image: linear-gradient(to bottom right, #F46666, #de4e4e);
 }
 
-#Name
+.Name
 {
     background-color: #F46666;
     width: 75%;
@@ -64,7 +72,7 @@ p
     margin-bottom: 3%;
     transition: 0.5s;;
 }
-#Name:hover
+.Name:hover
 {
     width: 77%;
     height: 16rem;
@@ -72,7 +80,7 @@ p
     margin-left: 10%;
 }
 
-#Title
+.Title
 {
     font-size: 2rem;
 }
@@ -107,6 +115,16 @@ p
 {
     margin-left: 1rem;
     font-size: 1.2rem;
+}
+#Projects div p span
+{
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+#Projects div p span:hover
+{
+    font-size: 1.4rem;
+    transition: 0.3s;
 }
 
 #Bio
